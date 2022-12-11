@@ -1,6 +1,5 @@
 body{
-    background: rgb(25,4,66);
-background: linear-gradient(90deg, rgba(25,4,66,1) 0%, rgba(63,9,121,1) 20%, rgba(142,5,191,1) 100%);
+    background-image: url("/linktree-clon/img/5437842.jpg");
     font-family: Arial, Helvetica, sans-serif;
 }
 a{ /** todos los links, quitar underline o tachado o azul*/
@@ -26,5 +25,5 @@ main{
 .profile p{
     font-size: 30px;
     font-weight: bolder;
-    color: bisque;
+    color: #d64c16;
 }
