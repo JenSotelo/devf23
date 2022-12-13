@@ -24,10 +24,12 @@ main{
     height: 300px;
     object-fit: cover; /**si la img es rect se usa para que no quede aplastada*/
 }
-.profile p{
+.profile h1{
+    margin-top: -5px;
+    font-weight: lighter;
+    font-family: "Lobster",sans-serif;
     font-size: 30px;
-    font-weight: bolder;
-    color: #006790;
+    color: #000000;
 }
 .link-box { /**Para darle formato a los botones*/
 background-color: rgb(99, 190, 228);
@@ -48,7 +50,7 @@ box-shadow: 9px 9px 5px 3px rgba(0,0,0,0.37);
 }
 
 .social-box{
-    margin-top: -15px;
+    margin-top: -05px;
     display:flex;
     align-items:center;
     justify-items:space-between;
