@@ -54,7 +54,7 @@ box-shadow: 9px 9px 5px 3px rgba(0,0,0,0.37);
     justify-items:space-between;
     margin-left: 20%;
 }
-.social-box img {
+.social-box img { /**para separar solo las imagenes y no el bloque completo*/
     width: 50px;
     margin: 10px;
 }
