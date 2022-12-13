@@ -1,4 +1,6 @@
 body{
+    /**ESTE CSS ES DE LA PRACTICA DE LINKTREE*/
+    
     background: rgb(25,4,66);
 background: linear-gradient(90deg, rgba(25,4,66,1) 0%, rgba(63,9,121,1) 20%, rgba(142,5,191,1) 100%);
     font-family: Arial, Helvetica, sans-serif;
