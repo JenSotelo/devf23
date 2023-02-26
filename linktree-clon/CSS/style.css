@@ -1,0 +1,66 @@
+body{
+    background-image: url("/linktree-clon/img/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;/**Que cuando haga scroll se quede fija*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{ 
+    text-decoration: none;/** todos los links, quitar underline o tachado o azul*/
+    font-weight: bold;
+    color: rgb(201, 233, 245);
+}
+main{
+    width: 500px;
+    max-width:90%;
+    margin: 50px auto;
+}
+.profile{/**Punto al principio para seleccionar seccion*/
+    display: inline-block;
+    margin-left: calc( 50% - 150px); /**Se le resta la mitad de lo que mide la img para que quede perfectamente centrado*/
+    text-align: center;
+}
+.profile img { /**Para seleccionar selectores dentro de una clase*/
+    border-radius: 50%; /**para redondar bordes, 50% para hacer circulo*/
+    width: 300px; /**En caso de que la img sea rectangular, cuadrarla*/
+    height: 300px;
+    object-fit: cover; /**si la img es rect se usa para que no quede aplastada*/
+}
+.profile h1{
+    margin-top: -5px;
+    font-weight: lighter;
+    font-family: "Lobster",sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+.link-box { /**Para darle formato a los botones*/
+background-color: rgb(99, 190, 228);
+width: 300px fit-content;
+text-align: center;
+border-radius: 30px; /**Para hacerlo redondeado*/
+padding: 2px 0; /**Margen del texto interior y el boton*/
+margin-bottom: 30px;
+margin-top: -5px;
+box-shadow: 9px 9px 5px 3px rgba(0,0,0,0.37);
+-webkit-box-shadow: 9px 9px 5px 3px rgba(0,0,0,0.37);
+-moz-box-shadow: 9px 9px 5px 3px rgba(0,0,0,0.37);
+}
+
+.link-box :hover {
+    scale: .95;
+    color: #006790;
+}
+
+.social-box{
+    margin-top: -05px;
+    display:flex;
+    align-items:center;
+    justify-items:space-between;
+    margin-left: 20%;
+}
+.social-box img { /**para separar solo las imagenes y no el bloque completo*/
+    width: 50px;
+    margin: 10px;
+}

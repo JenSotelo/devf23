@@ -1,0 +1,218 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.puntos {
+    height: 15px;
+    width: 15px;
+    object-fit: cover;
+}
+
+.dots {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.dots:hover {
+    background-color: rgb(244, 244, 244);
+    border-radius: 50%;
+}
+
+.acceder {
+    background-color: rgb(33, 105, 199);
+    color: aliceblue;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.acceder:hover {
+    background-color: rgb(29, 88, 167);
+    text-decoration: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.gmail {
+    padding-right: 20px;
+}
+
+.imagenes {
+    padding-right: 30px;
+}
+
+.google {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.buscador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*     border: solid 1px rgb(205, 205, 205);
+    border-radius: 30px; */
+}
+.buscador img{
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.search{
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.search input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+}
+::placeholder{
+    color: rgb(237, 237, 237);
+}
+.text{
+    border: solid 1px white;
+}
+
+.buscar_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    height: 340px;
+}
+
+.buscar_con {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 145px;
+    margin-right: 10px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.buscar_con:hover{
+    box-shadow: 6px 5px 8px -2px rgba(0,0,0,0.1);
+-webkit-box-shadow: 6px 5px 8px -2px rgba(0,0,0,0.1);
+-moz-box-shadow: 6px 5px 8px -2px rgba(0,0,0,0.1);
+}
+
+.tener_suerte {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 145px;
+}
+
+.tener_suerte:hover {
+    box-shadow: 6px 5px 8px -2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 6px 5px 8px -2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 6px 5px 8px -2px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f1f1;
+    padding-left: 25px;
+    align-items: center;
+    color: gray;
+    border-color: solid 10px black;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+}
+
+footer {
+    background-color: #f2f1f1;
+    text-decoration: none;
+    color: gray;
+    border-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    border: solid 0.3px;
+    border-color: rgb(224, 222, 222);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.footer_izq{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding-left: 25px;
+    
+}
+.footer_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding-right: 25px;
+}

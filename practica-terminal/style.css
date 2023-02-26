@@ -1,0 +1,32 @@
+body{
+    /**ESTE CSS ES DE LA PRACTICA DE LINKTREE*/
+    
+    background: rgb(25,4,66);
+background: linear-gradient(90deg, rgba(25,4,66,1) 0%, rgba(63,9,121,1) 20%, rgba(142,5,191,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{ /** todos los links, quitar underline o tachado o azul*/
+    text-decoration: none;
+    color: rgb(180, 100, 180);
+}
+main{
+    width: 500px;
+    max-width:90%;
+    margin: 50px auto;
+}
+.profile{/**Punto al principio para seleccionar seccion*/
+    display: inline-block;
+    margin-left: calc( 50% - 100px); /**Se le resta la mitad de lo que mide la img para que quede perfectamente centrado*/
+    text-align: center;
+}
+.profile img { /**Para seleccionar selectores dentro de una clase*/
+    border-radius: 50%; /**para redondar bordes, 50% para hacer circulo*/
+    width: 200px; /**En caso de que la img sea rectangular, cuadrarla*/
+    height: 200px;
+    object-fit: cover; /**si la img es rect se usa para que no quede aplastada*/
+}
+.profile p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: bisque;
+}

@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color: rgb(138, 209, 253);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    height: 10px;
+}
+
+.nombre {
+    flex-grow: .25;  /*para hacerlo más grande que las otras secciones del nav */
+}
+
+.logo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.carrito {
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    background-color: rgb(226, 249, 255);
+
+}
+
+.container {
+    /*CTRL +K +C = commentario */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 50px 50px;
+}
+
+.hijo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.gato_info{
+    text-align: justify;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.gato {
+    scale: 80%;
+}
+.gato_name{
+    font-size: 40px;
+}
+
+.gato_visitar {
+    color: black;
+    background-color: rgb(33, 203, 33);
+    font-weight: bold;
+    width: 100px;
+    border-radius: 30px;
+    border: 0px;
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
