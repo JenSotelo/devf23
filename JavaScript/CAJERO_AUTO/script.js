@@ -24,17 +24,17 @@ function verificarPassword(cuentaSeleccionada) {
     }
 }
 
-// Función para mostrar las opciones de la cuenta
+// Opciones de la cuenta
 function mostrarOpciones() {
     document.getElementById("opciones").style.display = "block";
 }
 
-// Función para ocultar las opciones de la cuenta
+// Ocultar las opciones de la cuenta
 function ocultarOpciones() {
     document.getElementById("opciones").style.display = "none";
 }
 
-// Función para consultar el saldo de la cuenta
+// Consultar el saldo de la cuenta
 function consultarSaldo() {
     const cuentaSeleccionada = document.getElementById("cuenta").value;
     const saldoActual = cuentas[cuentaSeleccionada]["saldo"];
@@ -42,7 +42,7 @@ function consultarSaldo() {
     document.getElementById("resultado").innerHTML = "El saldo actual de la cuenta es $" + saldoActual;
 }
 
-// Función para ingresar un monto en la cuenta
+// Ingresar un monto en la cuenta
 function ingresarMonto() {
     const cuentaSeleccionada = document.getElementById("cuenta").value;
     const montoIngresado = parseFloat(prompt("Ingresa el monto a ingresar:"));
@@ -77,7 +77,7 @@ function retirarMonto() {
     document.getElementById("resultado").innerHTML = "Se retiraron $" + montoRetirado + " de la cuenta. El nuevo saldo es $" + nuevoSaldo;
 }
 
-// Función para procesar el ingreso de password
+// Procesar el ingreso de password
 function ingresar() {
     const cuentaSeleccionada = document.getElementById("cuenta").value;
     if (verificarPassword(cuentaSeleccionada)) {

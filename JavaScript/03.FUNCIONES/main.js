@@ -1,14 +1,35 @@
-//* Funciones
 
-//HACER UNA FUNCION QUE RECIBA COMO PARAMETRO 2 NUMEROS
-//Y TE DE EL RESULTADO LA SUMA DE AMBOS
+//*EJERCICIOS
 
-//PASOS A SEGUIR
-//1. DECLARAR MI FUNCIÓN
-//2. LLAMAR A LA FUNCION AL FINAL
-
-function sumaNumeros (num1,num2){
-    let suma = num1+num2;
-    console.log(`La suma es: ${suma}`) // console.log("la suma es:" + suma)
+//*1.- Hacer una función que cheque si un 
+//*número es negativo, positivo o cero
+function numeroNegPos (x){
+    var x = prompt ("Dime un número entre -100 y +100")
+    if (x>=1){
+        console.log ("Número "+x+" es POSITIVO")
+    }
+    else if (x<=-1){
+        console.log ("Número "+x+" es NEGATIVO")
+    }
+    else{
+        console.log ("Número " +x+" es CERO")
+    }
 }
-sumaNumeros (15,15)
+numeroNegPos()
+
+//*2.- Hacer una función que halle 
+     //*el máximo entre tres números
+
+//*3.- Hacer una función que muestre 
+//*los primeros 10 dígitos de la serie Fibbonacci
+//*La sucesión de Fibonacci es la sucesión de  
+//*números: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34,
+
+//*4.- Hacer una función que guarde en un array 
+   //* los 20 primeros números pares
+
+//*5.- Hacer una función que calcule el tiempo
+  //*  necesario para que un automóvil que se
+  //*  mueve con una velocidad de 73000 km/h
+  //*  recorra una distancia de 120 km.
+   //*           (TIEMPO = d/v)
